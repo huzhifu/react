@@ -7,3 +7,17 @@
 <li>3.JSX 允许在模板中插入数组，数组会自动展开所有成员,不需要遍历</li>
 <li>4.JSX中不支持if else语句，可以用三元运算符代替</li>
 <li>5.由于 JSX 就是 JavaScript，一些标识符像 class 和 for 不建议作为 XML 属性名。作为替代，React DOM 使用 className 和 htmlFor 来做对应的属性。</li>
+<li>6.实例中 name 属性通过 this.props.name 来获取。
+<pre><code>
+      var HelloMessage = React.createClass({
+        render: function() {
+          return <h1>Hello {this.props.name}</h1>;
+        }
+      });
+
+      ReactDOM.render(
+        <HelloMessage name="Runoob" />,
+        document.getElementById('example')
+      );
+</code></pre>
+</li>
