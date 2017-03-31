@@ -26,3 +26,10 @@
 import 可以{，，，} 也可以import aaa(相当于import {default as aaa})；
 from 一般是一个js路径，如果是一个文件夹，那么这个文件夹下一定有一个index.js,index.js中会有一系列的import...  最后是export {,,,}
 </li>
+<li>8.es6的展开运算符...
+let a = {aa:'aa'}
+let b = {bb:'bb'}
+let c = {...a,...b}
+console.log(c)
+// {"aa":"aa","bb":"bb"}
+</li>
