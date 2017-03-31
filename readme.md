@@ -21,3 +21,8 @@
       );
 </code></pre>
 </li>
+<li>7.import与export是模块开发的主要方法，
+其中export default只能有一个，export可以有多个；
+import 可以{，，，} 也可以import aaa(相当于import {default as aaa})；
+from 一般是一个js路径，如果是一个文件夹，那么这个文件夹下一定有一个index.js,index.js中会有一系列的import...  最后是export {,,,}
+</li>
