@@ -34,3 +34,4 @@ console.log(c)
 // {"aa":"aa","bb":"bb"}
 </li>
 <li>组件名字必须首字母为大写，不然不认；自定义样式的时候，css的蛇形命名属性（font-size）都必须写为驼峰命名属性（fontSize），否则也不认</li>
+<li>JSX 的基本语法规则：遇到 HTML 标签（以 < 开头），就用 HTML 规则解析；遇到代码块（以 { 开头），就用 JavaScript 规则解析。</li>
