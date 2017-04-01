@@ -37,3 +37,4 @@ console.log(c)
 <li>JSX 的基本语法规则：遇到 HTML 标签（以 < 开头），就用 HTML 规则解析；遇到代码块（以 { 开头），就用 JavaScript 规则解析。</li>
 <li>React 提供一个工具方法 React.Children 来处理 this.props.children 。我们可以用 React.Children.map 来遍历子节点，而不用担心 this.props.children 的数据类型是 undefined 还是 object</li>
 <li>有时需要从组件获取真实 DOM 的节点，这时就要用到 ref 属性</li>
+<li>父组件向子组件传值，props;子组件向父组件传值：1.先在父组件初始化state 2.定义处理state函数 3.通过属性（props）将该函数传给子组件4.在子组件中通过监听事件关联该函数（或者子组件的监听事件关联子组件的函数，子组件的函数再去关联该函数）</li>
