@@ -38,3 +38,4 @@ console.log(c)
 <li>React 提供一个工具方法 React.Children 来处理 this.props.children 。我们可以用 React.Children.map 来遍历子节点，而不用担心 this.props.children 的数据类型是 undefined 还是 object</li>
 <li>有时需要从组件获取真实 DOM 的节点，这时就要用到 ref 属性</li>
 <li>父组件向子组件传值，props;子组件向父组件传值：1.先在父组件初始化state 2.定义处理state函数 3.通过属性（props）将该函数传给子组件4.在子组件中通过监听事件关联该函数（或者子组件的监听事件关联子组件的函数，子组件的函数再去关联该函数）</li>
+<li>const定义的变量之后的值不能改变；let是块级作用域，变量不会提升；var是函数作用域，变量会提升</li>
